@@ -1,0 +1,16 @@
+.counter {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0 0 60px;
+}
+
+.counter-item {
+  display: flex;
+  font-weight: 700;
+  color: red;
+}
+.counter-item:last-of-type {
+  color: brown;
+}

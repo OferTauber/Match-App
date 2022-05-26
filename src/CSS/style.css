@@ -1,0 +1,34 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(227, 153, 166);
+  background: linear-gradient(
+    152deg,
+    rgba(227, 153, 166, 1) 16%,
+    rgba(222, 104, 158, 1) 60%,
+    rgba(95, 222, 247, 1) 100%
+  );
+}
+
+.App {
+  width: 80%;
+  max-width: 500px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(246, 191, 191, 0.3);
+  border-radius: 20px;
+  border: 8px solid rgba(222, 104, 158, 1);
+  box-shadow: 0 0 30px #444;
+  padding: 20px;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

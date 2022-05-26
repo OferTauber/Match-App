@@ -1,0 +1,19 @@
+.controllers {
+  flex: 0 0 70px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.fa-gratipay {
+  color: rgb(0, 133, 0);
+}
+
+.fa-ban {
+  color: red;
+}
+/* Temp! */
+/* .controllers {
+  background-color: aquamarine;
+} */

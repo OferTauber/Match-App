@@ -1,0 +1,24 @@
+.showcase {
+  width: 80%;
+  flex: 1 1 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showcase img {
+  max-width: 100%;
+  max-height: calc(80vh - 220px);
+  margin-bottom: 10px;
+}
+
+.showcase h4 {
+  flex: 0 0;
+}
+
+@media (max-height: 500px) {
+  .showcase img {
+    max-height: calc(500px * 0.8 - 220px);
+  }
+}
