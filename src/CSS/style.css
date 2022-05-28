@@ -32,3 +32,9 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media (max-height: 500px) {
+  #root {
+    width: 100%;
+  }
+}

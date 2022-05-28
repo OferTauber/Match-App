@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import faker from 'faker';
 
 import './showcase.css';
 
 class Showcase extends Component {
   render() {
+    if (!this.props.match) return;
+    const { img, desc } = this.props.match;
     return (
       <div className="showcase">
-        <img src={faker.image.animals()} alt="avatar" />
-        <h4>{faker.name.findName()}</h4>
+        <img src={img} alt={desc} />
+        <h4>{desc}</h4>
       </div>
     );
   }
